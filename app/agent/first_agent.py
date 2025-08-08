@@ -55,3 +55,7 @@ graph = builder.compile()
 
 # View
 display(Image(graph.get_graph().draw_mermaid_png()))
+
+
+
+graph.invoke({"graph_state" : "Hi, this is Lance."})
